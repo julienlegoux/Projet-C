@@ -1,4 +1,6 @@
 $(function(){
+
+        //Fonction + boucle Menu ul-li bootstrap (1)
     function persoToggle(a,li){
         $(a).click(function (e) {
             e.preventDefault()
@@ -15,5 +17,5 @@ for(i=1;i<=15;i++){
         persoToggle('.second-menu-link-'+[i]+'-'+[j],'.third-menu-'+[i]+'-'+[j])
     }
 }
-
+        // end (1)
 })

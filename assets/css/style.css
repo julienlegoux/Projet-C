@@ -1,5 +1,7 @@
 
-
+#container{
+  margin: 0
+}
 #side-menu > li > ul > li > ul{
   display: none;
 }
@@ -19,6 +21,22 @@
   padding: 0;
   margin: 0;
   height: 250px;
+}
+.logo{
+  min-height: 10rem;
+  width: 100%;
+  margin: 0
+}
+.logo > figure{
+  margin: 0
+}
+.logo > figure > img {
+  width: 180px;
+  height: 180px;
+}
+#footer > .logo > figure > img{
+  position: relative;
+  left: 80%;
 }
 @media screen and (max-width: 996px){
   #right-side{
