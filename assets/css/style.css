@@ -1,0 +1,36 @@
+
+
+#side-menu > li > ul > li > ul{
+  display: none;
+}
+#side-menu > li > ul{
+  display: none;
+}
+#side-menu-box {
+  top: 10rem;
+  width: 12rem;
+  position: relative;
+  
+}
+#footer{ /* Check */
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 250px;
+}
+@media screen and (max-width: 996px){
+  #right-side{
+    position: relative;
+    left: 14rem;
+    top: -16rem;
+  }
+}
+@media screen and (max-width: 851px){
+  #right-side{
+    position: relative;
+    left: 9rem;
+    top: -16rem;
+  }
+}
